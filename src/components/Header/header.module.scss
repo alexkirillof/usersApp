@@ -1,0 +1,46 @@
+.header {
+  padding: 24px 62px;
+  height: 64px;
+  width: 100%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.24);
+  align-self: center;
+
+  .menuItem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 24px;
+  }
+  .menuItem a {
+    color: var(--text-primary-default);
+    font-weight: 700;
+    &:hover {
+      color: var(--White-Medium-Emphasis);
+      border-bottom: 2px solid var(--btnBg);
+    }
+  }
+  .active a {
+    color: var(--white);
+  }
+  .active {
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    background-color: var(--activeMenu);
+    height: 64px;
+  }
+}
+
+@media (max-width: 520px) {
+  .header {
+    height: 110px;
+    padding: 24px 6px;
+    .menuItem {
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      gap: 20px;
+      padding: 0 12px;
+    }
+  }
+}

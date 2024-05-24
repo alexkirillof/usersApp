@@ -1,0 +1,41 @@
+.listWpapper {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background: var(--itemBg);
+  padding: 18px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 225px;
+  height: 225px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+
+  &:hover {
+    scale: 101%;
+    box-shadow: 0 6px 15px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .editBlock {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 16px;
+    .edit {
+      cursor: pointer;
+    }
+  }
+}
+
+strong {
+  font-weight: 700;
+  text-decoration: underline;
+  margin-right: 10px;
+}

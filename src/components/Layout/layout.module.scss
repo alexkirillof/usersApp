@@ -1,0 +1,28 @@
+.layout {
+  min-width: 320px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    .mainBlock {
+      width: 100%;
+      padding: 48px 62px;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+@media (max-width: 520px) {
+  .mainBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 24px 0 !important;
+    margin-bottom: 15px !important;
+  }
+}

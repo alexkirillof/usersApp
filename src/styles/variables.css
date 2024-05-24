@@ -1,0 +1,16 @@
+:root {
+  --white: #ffffff;
+  --text-primary-default: #2d2d2d;
+  --layoutBg: #f3f8ff;
+  --primary-header: #969696;
+  --activeMenu: #7a7a7a;
+  --White-Medium-Emphasis: rgb(171, 171, 171);
+
+  --hover: #c9c9c9;
+  --buttonColor: #838282;
+  --button-disable: #e8c0ab;
+  --logo: #666b66ff;
+  --itemBg: #f6f6f6ff;
+  --btnBg: #adb0a7ff;
+  --btnText: #fcfcfc;
+}
